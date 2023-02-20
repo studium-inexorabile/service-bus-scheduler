@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ServiceBusScheduler": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7197"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32288,
+      "useSSL": false
+    }
+  }
+}
